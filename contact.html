@@ -19,8 +19,8 @@
         <nav>
             <a href="./index.html">Home</a>
             <a href="./projects.html">Projects</a>
-            <a href="./contact.html">Contact</a>
-            <a href="file:///Users/aleishapeterson/Downloads/junior-web-developer-resume-example.pdf" target="_blank">Resume</a>
+            <a href="./contact.html">Contact Me</a>
+            <a href="https://docs.google.com/document/d/1yIzehqwAlfZkp1yoxjrRtxWjZ8-leLHdaF2H6mG5Es4/" target="_blank">Resume</a>
         </nav>
     </header>
 
@@ -44,7 +44,7 @@
         <h2>Send Me An Email</h2>
 
         <div class="form">
-            <form class="container">
+            <form class="container" name="contact" method="POST" data-netlify="true">
                 <p>
                     <label for="firstName">First name</label>
                     <input type="text" id="firstName" name="first_name" placeholder="Enter your first name">
@@ -62,7 +62,7 @@
 
                 <p>
                     <label for="subject">Subject</label>
-                    <input type="subject" name="subject" placeholder="Enter your subject">
+                    <input type="text" id="subject" name="subject" placeholder="Enter your subject">
                 </p>
 
                 <p>
